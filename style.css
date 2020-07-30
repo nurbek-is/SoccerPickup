@@ -15,7 +15,7 @@ a:hover {
 #container {
 	width:85%;
 	margin:0 auto;
-	background: #fff;
+	background: #fff  url('../images/bg_soccerballs.png') repeat-y 65.520833% 0;
 }
 
 header {
@@ -67,7 +67,6 @@ nav ul li a {
 #maincontent .game img {
 	float:left;
 	margin:0 2.86% 0 0;
-	max-width: 100%;
 }
 
 #sidebar {
@@ -92,3 +91,4 @@ nav ul li a {
 #footerinfo p {
 	color:#fff;
 }
+ 

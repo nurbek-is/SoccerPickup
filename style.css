@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 #maincontent {
-	width:61.7708333333%; /* 593/960 */
+	width:61.7708333333%;
 	padding:1.0416666% 0 3.75% 3.75%;
 	float:left;
 }
@@ -58,19 +58,24 @@ nav ul li a {
 
 #maincontent .game {
 	float:left;
-	width:48.22934232%; /* 286/593 */
+	width:47.892074199%;
 	line-height:14px;
 	font-size:14px;
-	margin:0.8431703204%; /* 5/593 */
+	margin:0.8431703204%;
 }
 
 #maincontent .game img {
 	float:left;
 	margin:0 2.86% 0 0;
+	max-width:100%;
+}
+
+#maincontent iframe {
+	max-width:100%;
 }
 
 #sidebar {
-	width:26.9791666667%; /* 259/960 */
+	width:26.9791666667%;
 	float:right;
 	padding:3.75%;
 	color:#333;
@@ -88,7 +93,7 @@ nav ul li a {
 	background-color:#151570;
 	padding:1.0416666% 0 1.0416666% 3.75%;
 }
+
 #footerinfo p {
 	color:#fff;
 }
- 
